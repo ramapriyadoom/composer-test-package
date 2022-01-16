@@ -1,0 +1,19 @@
+{
+    "name": "ramapriyadoom/composer-test-package",
+    "version": "1.0",
+    "description": "test composer package",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RamapriyaDoom\\ComposerTestPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ramapriya Doom",
+            "email": "stay.funeral@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
